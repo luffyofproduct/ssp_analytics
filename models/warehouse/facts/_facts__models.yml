@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: fct_games_played
+    columns:
+      - name: fct_game_played_sk
+        tests: 
+          - unique
+          - not_null
