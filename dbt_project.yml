@@ -16,7 +16,7 @@ clean-targets:
   - "dbt_packages"
 
 models:
-  analytics:
+  ssp_analytics:
     staging:
       +materialized: view
       +schema: staging
