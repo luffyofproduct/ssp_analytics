@@ -23,3 +23,4 @@ models:
     warehouse:
       +materialized: table
       +schema: warehouse
+      
